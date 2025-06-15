@@ -17,28 +17,6 @@ body {
   gap: 20px;
 }
 
-/* Blog list */
-#blog-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    background-color:azure;
-}
-
-#blog-list li, #blog-list a {
-    margin: 0 2px;
-    padding: 10px;
-    text-decoration: none;
-    color:darkgreen;
-    font-weight: bold;
-}
-/* Elements of the list*/
-#navbar li {
-  display: inline-block;
-}
-
 /* Links inside the list */
 #navbar a {
   display: block;
