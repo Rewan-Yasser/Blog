@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/blog.css">
     <title>Blog Posts</title>
 </head>
@@ -21,55 +22,62 @@
         </nav>
     </header>
 
-    <!-- Blog list -->
-    <section>
-        <h2>Blog List</h2>
-        <ul id="blog-list">
-            <li><a href="#post1">Our Bakery</a></li>
-            <li><a href="#post2">Our Menu</a></li>
-        </ul>
-    </section>
+    <!-- Blog list using flex layout -->
+    <div class="blog-container">
+    <!-- Blog List (Left Column) -->
+    <aside class="blog-list">
+      <h2>Blog List</h2>
+      <ul>
+        <li><a href="#post1">Our Bakery</a></li>
+        <li><a href="#post2">Our Menu</a></li>
+      </ul>
+    </aside>
 
-    <!-- Section of post1 -->
-    <section id="post1">
+    <!-- Blog Details (Right Column) -->
+    <section class="blog-detail">
+      <!-- Post 1 -->
+      <article id="post1">
         <h2>Our Bakery</h2>
         <p>Welcome to our bakery! We offer a variety of fresh breads, pastries, and cakes.</p>
-        <p>By Rewan Yasser</p>
+        <p><strong>By Rewan Yasser</strong></p>
         <time datetime="2025-06-12">June 12, 2025</time>
         <div>
-            <img src="images/full-2.jpg" alt="Image of first post" title="Baker" width="400" height="300">
+          <img src="images/full-2.jpg" alt="Image of first post" width="400" height="300" />
         </div>
         <p>Here are the main topics covered:</p>
         <ul>
-            <li>Location of the bakery</li>
-            <li>What we offer</li>
-            <li>Our Branches</li>
+          <li>Location of the bakery</li>
+          <li>What we offer</li>
+          <li>Our Branches</li>
         </ul>
-
-        <p>For more information, visit <a href="https://rewan-yasser.github.io/Bakery" target="_blank">Our Bakery</a>.
+        <p>
+          For more information, visit
+          <a href="https://rewan-yasser.github.io/Bakery" target="_blank">Our Bakery</a>.
         </p>
-    </section>
+      </article>
 
-    <!-- Section of post2 -->
-    <section id="post2">
+      <!-- Post 2 -->
+      <article id="post2">
         <h2>Our Menu</h2>
-        <p>Explore our delicious menu featuring a variety of baked goods, from artisanal breads to decadent pastries.
-        </p>
-        <p>By Rewan Yasser</p>
+        <p>Explore our delicious menu featuring a variety of baked goods, from artisanal breads to decadent pastries.</p>
+        <p><strong>By Rewan Yasser</strong></p>
         <time datetime="2025-06-10">June 10, 2025</time>
         <div>
-            <img src="images/alexandru-stavrica.jpg" alt="Image of second post" title="Bread" width="400" height="400">
+          <img src="images/alexandru-stavrica.jpg" alt="Image of second post" width="400" height="400" />
         </div>
         <p>Our menu includes:</p>
         <ol>
-            <li>Bread</li>
-            <li>Donuts</li>
-            <li>Cheesecake</li>
+          <li>Bread</li>
+          <li>Donuts</li>
+          <li>Cheesecake</li>
         </ol>
-
-        <p>Learn more from <a href="https://rewan-yasser.github.io/Bakery/" target="_blank">Our Bakery</a>.</p>
+        <p>
+          Learn more from
+          <a href="https://rewan-yasser.github.io/Bakery/" target="_blank">Our Bakery</a>.
+        </p>
+      </article>
     </section>
-
+  </div>
 </body>
 
 </html>
