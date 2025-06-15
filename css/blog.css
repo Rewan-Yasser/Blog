@@ -1,0 +1,113 @@
+/* Style the body of the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar style */
+#navbar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Blog list */
+#blog-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color:azure;
+}
+
+#blog-list li, #blog-list a {
+    margin: 0 2px;
+    padding: 10px;
+    text-decoration: none;
+    color:darkgreen;
+    font-weight: bold;
+}
+/* Elements of the list*/
+#navbar li {
+  display: inline-block;
+}
+
+/* Links inside the list */
+#navbar a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 14px 20px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+/* Effect on hover the list items */
+#navbar a:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
+
+/* Style the headings */
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+    text-align: center;
+    color:darkblue;
+
+}
+
+/* Spacing between headings and description */
+p {
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style the time */
+time {
+    display: block;
+    text-align: center;
+    font-style: italic;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Style the post */
+#post1, #post2 {
+    border: 1px solid #ccc;
+    margin: 20px auto;
+    width: 80%;
+    padding: 15px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+/* Style the image */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* style the lists of the posts */
+#post1 ul, #post2 ol {
+    padding-left: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}

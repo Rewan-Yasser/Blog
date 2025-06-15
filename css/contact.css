@@ -1,0 +1,143 @@
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar style */
+#navbar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Elements of the list*/
+#navbar li {
+  display: inline-block;
+}
+
+/* Links inside the list */
+#navbar a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 14px 20px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+/* Effect on hover the list items */
+#navbar a:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
+
+/* Headings */
+h1, h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color:black;
+  font-size: 2em;
+}
+
+h2{
+    color: crimson;
+}
+
+/* Contact Form Section */
+#contact-form {
+  background-color: #fff;
+  max-width: 800px;
+  margin: 10px auto 30px;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+#contact-form form label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form form input[type="text"],
+#contact-form form input[type="email"],
+#contact-form form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#contact-form form input[type="submit"] {
+  background-color: #333;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#contact-form form input[type="submit"]:hover {
+  background-color: #555;
+}
+
+/* Contact Info Section */
+.contact-info {
+  background-color: #fff;
+  max-width: 800px;
+  margin: 10px auto;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.contact-info table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.contact-info th,
+.contact-info td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: center;
+}
+
+.contact-info th {
+  background-color: #333;
+  color: white;
+}
+
+.contact-info tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.contact-info p {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.contact-info a {
+  color: crimson;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
