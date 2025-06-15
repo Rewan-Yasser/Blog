@@ -142,3 +142,61 @@ h2{
 .contact-info a:hover {
   text-decoration: underline;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  #navbar {
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+  }
+
+  #navbar li {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  #navbar a {
+    padding: 12px 0;
+    font-size: 1em;
+  }
+
+  h1 {
+    font-size: 1.3em;
+  }
+
+  h2 {
+    font-size: 1.1em;
+  }
+
+  #contact-form,
+  .contact-info {
+    max-width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+  }
+
+  #contact-form form input[type="text"],
+  #contact-form form input[type="email"],
+  #contact-form form textarea {
+    font-size: 1em;
+    padding: 8px;
+  }
+
+  .contact-info table,
+  .contact-info th,
+  .contact-info td {
+    font-size: 0.95em;
+    padding: 8px;
+  }
+
+  .contact-info p {
+    font-size: 1em;
+    margin-top: 8px;
+  }
+}

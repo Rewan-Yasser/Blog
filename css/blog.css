@@ -120,5 +120,56 @@ img {
 @media (max-width: 768px) {
     .blog-container {
         flex-direction: column;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .blog-list,
+    .blog-detail {
+        width: 100%;
+        padding: 8px;
+        margin: 0;
+    }
+
+    #navbar {
+        flex-direction: column;
+        gap: 0;
+        align-items: center;
+    }
+
+    #navbar li {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    #navbar a {
+        padding: 12px 0;
+        font-size: 1em;
+    }
+
+    h1 {
+        font-size: 1.3em;
+    }
+
+    h2 {
+        font-size: 1.1em;
+    }
+
+    p {
+        margin: 10px;
+        padding: 5px;
+        font-size: 1em;
+    }
+
+    #post1 ul, #post2 ol {
+        padding-left: 10%;
+        gap: 5px;
+    }
+}
+
+@media (max-width: 768px) {
+    .blog-container {
+        flex-direction: column;
     }
 }

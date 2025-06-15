@@ -1,7 +1,9 @@
 /* Style the body of the page */
 body {
-    background-color: #f4f4f4;
-    margin: 0;
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;    margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
@@ -42,7 +44,7 @@ body {
 
 /* Style the headings */
 h1 {
-    color: black;
+    color: white;
     text-align: center;
     font-size: 2em;
 }
@@ -83,3 +85,46 @@ time {
     box-sizing: border-box;
 }
 
+/* Responsive styles */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    #navbar {
+        flex-direction: column;
+        gap: 0;
+        align-items: center;
+    }
+
+    #navbar li {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    #navbar a {
+        padding: 12px 0;
+        font-size: 1em;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    .post {
+        margin: 10px;
+        padding: 10px;
+        max-width: 100%;
+    }
+
+    p {
+        margin: 10px;
+        padding: 5px;
+        font-size: 1em;
+    }
+}
